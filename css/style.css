@@ -4,19 +4,20 @@
       margin: 0;
       padding: 0;
       line-height: 1.6;
+      background: url('../imagenes/imagen15.jpg');
     }
 
     header {
       background-color: #333;
       color: white;
-      padding: 1rem 2rem;
+      padding: 2rem 3rem;
       text-align: center;
     }
 
     nav {
       background: #444;
       padding: 0.5rem;
-      text-align: center;
+      text-align: right;
     }
 
     nav a {
@@ -76,8 +77,8 @@
         display: block;
         max-width: 100%;
         height: auto;
-        border-radius: 15px;
-        margin: 30px auto 0 auto;
+        border-radius: 30px;
+        margin: 50px auto 0 auto;
         box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
       }
 /* Estilos generales para la sección de servicios  */
