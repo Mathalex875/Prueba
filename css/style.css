@@ -80,3 +80,120 @@
         margin: 30px auto 0 auto;
         box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
       }
+/* Estilos generales para la sección de servicios  */
+#servicios {
+    background-color: #f4fbe6; /* Fondo suave verde claro */
+    padding: 60px 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Estilo para el título de la sección */
+  #servicios h2 {
+    text-align: center;
+    font-size: 2.8rem;
+    color: #388e3c; /* Verde hoja */
+    margin-bottom: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  /* Estilo para cada bloque de servicio */
+  .servicio {
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Títulos de cada servicio */
+  .servicio h3 {
+    font-size: 2rem;
+    color: #4caf50;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  
+  /* Descripción del servicio */
+  .servicio p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #4e4e4e;
+    margin-bottom: 20px;
+  }
+  
+  /* Listas de servicios */
+  .servicio ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.1rem;
+    color: #4e4e4e;
+  }
+  
+  .servicio ul li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+  }
+  
+  /* Estilo de las imágenes */
+  .servicio img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Estilos generales para la sección contactos*/
+.contacto {
+    background-color: #f9f9f9; /* Fondo suave gris claro */
+    padding: 60px 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  /* Estilo para las cajas de información (Contacto y Horarios) */
+  .contacto .info-contacto, .contacto .info-horarios {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    min-width: 280px;
+    max-width: 500px;
+  }
+  
+  /* Títulos de las secciones */
+  .contacto h2 {
+    color: #388e3c; /* Verde hoja */
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  /* Párrafos de contacto y horarios */
+  .contacto p {
+    font-size: 1.1rem;
+    color: #4e4e4e;
+    line-height: 1.6;
+  }
+  
+  /* Enlaces de correo y teléfono */
+  .contacto a {
+    color: #388e3c;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .contacto a:hover {
+    text-decoration: underline;
+  }
